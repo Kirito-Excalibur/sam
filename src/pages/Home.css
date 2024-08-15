@@ -1,0 +1,26 @@
+*{
+  
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none;         /* Standard */
+    
+}
+
+.calendar{
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid green; */
+  
+}
+
+h3,h2 {
+    margin: 0 5px !important;
+
+}
+
+.chevron:hover{
+    cursor: pointer;
+}
